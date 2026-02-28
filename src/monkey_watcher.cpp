@@ -1,6 +1,6 @@
 #include "monkey_watcher.hpp"
 
-// Implement this:
+// Tilføjer alle aber fra inputlisten til monkeys_seen
 void MonkeyWatcher::filter_op(std::vector<Monkey> &monkeys)
 {
  for (const auto &monkey : monkeys)
